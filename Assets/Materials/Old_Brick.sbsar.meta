@@ -1,0 +1,66 @@
+fileFormatVersion: 2
+guid: 098c617f9e2793d4d838e3db23a1683b
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Old_Brick/Old_Brick
+    400000: Old_Brick/Old_Brick/Transform
+    2100000: mat.Old_Brick
+    2300000: Old_Brick/Old_Brick/MeshRenderer
+    2800000: Old_Brick_Base Color
+    3300000: Old_Brick/Old_Brick/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: Old_Brick/Old_Brick/SphereCollider
+    100100000: Old_Brick
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  mGraphInstanceData:
+  - graphLabel: Old_Brick
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Old_Brick\" label=\"\" >\n </sbspreset>\n"
+    shaderName: HDRenderPipeline/Lit
+    outputNames: Base Color
+    texturePackingList: []
+    colorSpaceList:
+    - outputName: Base Color
+      bLinear: 0
+    - outputName: Normal
+      bLinear: 1
+    - outputName: Roughness
+      bLinear: 1
+    - outputName: Metallic
+      bLinear: 1
+    - outputName: Height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 0
+      textureHeight: 0
+      textureFormat: 0
+      loadBehavior: 0
+    - label: Standalone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 0
+      textureHeight: 0
+      textureFormat: 0
+      loadBehavior: 0
+    - label: iPhone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 0
+      textureHeight: 0
+      textureFormat: 0
+      loadBehavior: 0
+    material: {fileID: 2100000, guid: 098c617f9e2793d4d838e3db23a1683b, type: 3}
